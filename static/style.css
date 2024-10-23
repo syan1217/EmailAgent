@@ -8,27 +8,63 @@ body {
 /* Heading styling */
 h1 {
     color: #333;
-}
-
-/* Button styling */
-button {
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    cursor: pointer;
+    text-align: center;
     margin-bottom: 10px;
 }
 
-/* Hover effect for the button */
-button:hover {
-    background-color: #0056b3;
+/* Chat container styling */
+.chat-container {
+    max-width: 600px;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Styling for each email subject item */
-#emailList p {
-    margin: 5px 0;
-    padding: 8px;
+/* Chatbox styling */
+.chatbox {
+    height: 300px;
+    overflow-y: auto;
     background-color: #e9ecef;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* Chat message styling */
+.system-message {
+    text-align: center;
+    color: #777;
+}
+
+.email-subject {
+    padding: 8px;
+    background-color: #007bff;
+    color: white;
+    margin: 5px 0;
     border-radius: 4px;
+    cursor: pointer;
+}
+
+.email-content {
+    background-color: #f1f1f1;
+    padding: 8px;
+    border-radius: 4px;
+    margin-top: 5px;
+}
+
+/* Button styling */
+.fetch-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.fetch-btn:hover {
+    background-color: #218838;
 }
